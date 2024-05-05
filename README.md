@@ -2,6 +2,12 @@
 
 This is a RESTful API server implemented in Go for searching log lines from a remote storage based on the provided criteria.
 
+## Use case
+A log puller is running for some services and dumping all the data in a remote storage.
+There is a need to implement a grep like functionality to search for log lines based on the
+search criteria. This functionality is needed through an API first solution so that it can be
+integrated with other consumers and systems.
+
 ## Structure
 
 ├── api
